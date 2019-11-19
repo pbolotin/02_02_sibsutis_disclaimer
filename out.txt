@@ -1,0 +1,46 @@
+diff --git a/Labs/Lab_05.html b/Labs/Lab_05.html
+index f923efb..e22e67b 100644
+--- a/Labs/Lab_05.html
++++ b/Labs/Lab_05.html
+@@ -8,7 +8,7 @@
+  TEXT="black" LINK="blue" ALINK="red" VLINK="green">
+ 
+ <FORM METHOD="POST">
+-	<DIV STYLE="margin-left: 100px; margin-top:50px; padding-left: 30px; padding-right: 30px; background-color:#DDFFDD; border-style:solid; border-width:2px; border-color:#EEEEFF; display:inline-block;">
++	<DIV STYLE="margin-left: 100px; margin-top:50px; padding-left: 30px; padding-right: 30px; background-color:#DDFFDD; border-style:solid; border-width:2px; border-color:#AAAAFF; display:inline-block;">
+ 		<P><B>Имя пользователя:</B><BR>
+ 		<INPUT NAME="nm" TYPE="TEXTBOX" STYLE="width: 200px;">
+ 		</P>
+@@ -16,12 +16,15 @@
+ 		<INPUT NAME="psw" TYPE="PASSWORD" STYLE="width: 200px;">
+ 		</P>
+ 		<P><B>Ваш пол:</B><BR>
+-		Mужской <INPUT NAME="s" TYPE="RADIO" VALUE="m"><BR>
+-		Женский <INPUT NAME="s" TYPE="RADIO" VALUE="f">
++		<DIV STYLE="display:inline-block">Мужской<BR>Женский</DIV>
++		<DIV STYLE="display:inline-block">
++		<INPUT NAME="s" TYPE="RADIO" VALUE="m"><BR>
++		<INPUT NAME="s" TYPE="RADIO" VALUE="f">
++		</DIV>
+ 		</P>
+ 		<P><B>Город проживания:</B><BR>
+-		<SELECT NAME="city" SIZE="5" STYLE="width: 200px; overflow-y: hidden"
+->
++		
++		<SELECT NAME="city" SIZE="5" STYLE="width: 200px; overflow-y: hidden">
+ 			<OPTION VALUE="1">Новосибирск</OPTION>
+ 			<OPTION VALUE="2">Томск</OPTION>
+ 			<OPTION VALUE="3">Красноярск</OPTION>
+diff --git a/internet_tech.mm b/internet_tech.mm
+index ec586e1..1d8ec0b 100644
+--- a/internet_tech.mm
++++ b/internet_tech.mm
+@@ -17035,7 +17035,7 @@
+ <font BOLD="true"/>
+ </node>
+ </node>
+-<node TEXT="&#x421;&#x43e;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43d;&#x438;&#x435;" FOLDED="true" ID="ID_641504729" CREATED="1572617443577" MODIFIED="1572617444987">
++<node TEXT="&#x421;&#x43e;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43d;&#x438;&#x435;" ID="ID_641504729" CREATED="1572617443577" MODIFIED="1572617444987">
+ <font BOLD="true"/>
+ <node TEXT="&#x421;&#x442;&#x440;&#x443;&#x43a;&#x442;&#x443;&#x440;&#x430; &#x43a;&#x43e;&#x43c;&#x430;&#x43d;&#x434; &#x44f;&#x437;&#x44b;&#x43a;&#x430; HTML" ID="ID_1063565765" CREATED="1572617443577" MODIFIED="1572617450435">
+ <font BOLD="true"/>
