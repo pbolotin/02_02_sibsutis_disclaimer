@@ -8,7 +8,7 @@
  TEXT="black" LINK="blue" ALINK="red" VLINK="green">
 
 <FORM METHOD="POST">
-	<DIV STYLE="margin-left: 100px; margin-top:50px; padding-left: 30px; padding-right: 30px; background-color:#DDFFDD; border-style:solid; border-width:2px; border-color:#EEEEFF; display:inline-block;">
+	<DIV STYLE="margin-left: 100px; margin-top:50px; padding-left: 30px; padding-right: 30px; background-color:#DDFFDD; border-style:solid; border-width:2px; border-color:#AAAAFF; display:inline-block;">
 		<P><B>Имя пользователя:</B><BR>
 		<INPUT NAME="nm" TYPE="TEXTBOX" STYLE="width: 200px;">
 		</P>
@@ -16,12 +16,15 @@
 		<INPUT NAME="psw" TYPE="PASSWORD" STYLE="width: 200px;">
 		</P>
 		<P><B>Ваш пол:</B><BR>
-		Mужской <INPUT NAME="s" TYPE="RADIO" VALUE="m"><BR>
-		Женский <INPUT NAME="s" TYPE="RADIO" VALUE="f">
+		<DIV STYLE="display:inline-block">Мужской<BR>Женский</DIV>
+		<DIV STYLE="display:inline-block">
+		<INPUT NAME="s" TYPE="RADIO" VALUE="m"><BR>
+		<INPUT NAME="s" TYPE="RADIO" VALUE="f">
+		</DIV>
 		</P>
 		<P><B>Город проживания:</B><BR>
-		<SELECT NAME="city" SIZE="5" STYLE="width: 200px; overflow-y: hidden"
->
+		
+		<SELECT NAME="city" SIZE="5" STYLE="width: 200px; overflow-y: hidden">
 			<OPTION VALUE="1">Новосибирск</OPTION>
 			<OPTION VALUE="2">Томск</OPTION>
 			<OPTION VALUE="3">Красноярск</OPTION>
