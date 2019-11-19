@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.2//RU">
+<HTML><HEAD>
+<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=Windows-1251">
+<TITLE>Лабораторная 5</TITLE>
+</HEAD>
+
+<BODY BGCOLOR="white"
+ TEXT="black" LINK="blue" ALINK="red" VLINK="green">
+
+<FORM METHOD="POST">
+	<DIV STYLE="margin-left: 100px; margin-top:50px; padding-left: 30px; padding-right: 30px; background-color:#DDFFDD; border-style:solid; border-width:2px; border-color:#EEEEFF; display:inline-block;">
+		<P><B>Имя пользователя:</B><BR>
+		<INPUT NAME="nm" TYPE="TEXTBOX" STYLE="width: 200px;">
+		</P>
+		<P><B>Пароль:</B><BR>
+		<INPUT NAME="psw" TYPE="PASSWORD" STYLE="width: 200px;">
+		</P>
+		<P><B>Ваш пол:</B><BR>
+		Mужской <INPUT NAME="s" TYPE="RADIO" VALUE="m"><BR>
+		Женский <INPUT NAME="s" TYPE="RADIO" VALUE="f">
+		</P>
+		<P><B>Город проживания:</B><BR>
+		<SELECT NAME="city" SIZE="5" STYLE="width: 200px; overflow-y: hidden"
+>
+			<OPTION VALUE="1">Новосибирск</OPTION>
+			<OPTION VALUE="2">Томск</OPTION>
+			<OPTION VALUE="3">Красноярск</OPTION>
+			<OPTION VALUE="4">Омск</OPTION>
+			<OPTION VALUE="5">Другой</OPTION>
+		</SELECT>
+		</P>
+		<P><B>Есть ли у вас высшее <BR> образование?</B><BR>
+		Ставьте галочку если есть: <INPUT NAME="ed" TYPE="CHECKBOX">
+		</P>
+		<P><B>Ваша биография:</B><BR>
+		<TEXTAREA NAME="bio" ROWS="5" STYLE="width: 200px; resize: none"></TEXTAREA>
+		</P>
+		<P>
+		<INPUT TYPE="SUBMIT" VALUE="Готово" STYLE="font-weight:bold; width: 100px;">
+		<INPUT TYPE="RESET" VALUE="Отмена" STYLE="width: 100px;">
+		</P>
+	</DIV>
+</FORM>
+ 
+</BODY>
+</HTML>
